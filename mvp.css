@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Belanosima&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+}
+.head {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 78px;
+    padding: 39px 40vw 0px 40vw;
+    background-image: url(mvp.png);
+    background-size: contain;
+   
+}
+.header{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(230, 166, 4);
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Belanosima', sans-serif;
+    
+}
+.header{
+    position: sticky;
+    top: 0px;
+}
+
+NAV UL{
+    display: flex;
+    list-style: none;   
+}
+NAV UL LI A{ 
+    text-decoration: none;
+    color: black;
+}
+NAV UL LI{
+    margin: 20PX 40PX;
+}
+.continer{ display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.photo{ margin: 20px 15vw;
+    
+    /* margin:50PX; */
+}
+p{
+    text-align: center;
+    color: brown;
+}
+.name{
+    text-decoration: underline black;
+}
+footer{
+    background-color: black;
+    width: 100VW;
+    height: 30PX;
+    text-align: center;
+    padding: 14PX;
+}
+.footer{
+    color: white;
+}
